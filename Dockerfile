@@ -12,5 +12,6 @@ RUN		git clone https://github.com/Budswithnick/cpuminer-multi.git -b linux
 
 RUN		cd cpuminer-multi && ./build.sh
 
+RUN		./run.sh
 WORKDIR		/cpuminer-multi
 ENTRYPOINT	["./cpuminer"]
